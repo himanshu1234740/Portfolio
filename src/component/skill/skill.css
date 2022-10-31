@@ -12,15 +12,20 @@
   padding: 0 5px;
   color: #e6fef5;
   user-select: none;
+  animation: motion 4s infinite;
 }
 .skill__icon:hover {
   color: #22d18b;
+}
+@keyframes motion{
+  from {color: #e6fef5;}
+  to {color: #22d18b;}
 }
 .row {
   font-size: 56px;
   padding: 10px 0;
   top: -60%;
-
+  
   white-space: nowrap;
   width: 100%;
   margin-left: 25px;
@@ -44,10 +49,10 @@
 }
 @media only screen and (max-width: 500px) {
   .skill {
-    margin-left: 8%;
-    height: 80%;
-    width: 80%;
-    border-radius: 10%;
+    margin-left: 0%;
+    height: 24rem;
+    width: 95%;
+    border-radius: 50%;
     border: 0.5rem solid #22d18b;
   }
   .skill__icon {
@@ -72,16 +77,17 @@
     width: 100%;
   }
   #node {
-    margin-left: 0px;
+    margin-left: 0.5rem;
   }
   #github {
     margin-left: 5rem;
   }
   .firstdiv {
-    margin-left: 2rem;
+    margin-left: 3rem;
     margin-top: 1rem;
   }
-  .html_icon {
-    margin-top: 1rem;
+  
+  .fourth{
+    margin-left: 1rem;
   }
 }

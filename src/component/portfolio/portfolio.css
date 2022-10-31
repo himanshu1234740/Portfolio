@@ -9,10 +9,10 @@
   flex-wrap: wrap;
   margin-top: 2rem;
 }
-.image-post{
-    display: flex;
+.image-post {
+  display: flex;
   flex-direction: row;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   margin-top: 2rem;
 }
 .weatherInfo {
@@ -99,62 +99,61 @@
     margin-top: 5rem;
     margin-left: 25%;
   }
-  .postInfo{
+  .postInfo {
     width: 60%;
     margin-left: 10%;
     margin-top: -3rem;
   }
-  .postImg{
+  .postImg {
     width: 80%;
     margin-left: 3%;
     margin-top: -6rem;
   }
-  .weatherimg{
+  .weatherimg {
     margin-top: -63rem;
-    
+
     width: 80%;
     margin-left: 3%;
   }
- 
-  .weatherInfo{
+
+  .weatherInfo {
     margin-top: 26rem;
     width: 60%;
     margin-left: 10%;
   }
-  .weather{
+  .weather {
     margin-top: 30em;
   }
-  #all-project{
-    
+  #all-project {
     margin-top: -20rem;
   }
 }
 @media only screen and (max-width: 500px) {
-  .recently{
-    width: 90%;
-    margin-left: 3%;
-    margin-right: 5%;
+  .recently {
+    width: 80%;
+    margin-left: 18%;
     
+    font-size: 18px;
   }
-  .postInfo{
+  .postInfo {
     width: 80%;
     margin-left: -3%;
     margin-top: -3rem;
-    height: 23rem;
+    height: 25rem;
   }
-  .postImg{
+  .postImg {
     width: 90%;
     margin-left: -2%;
     margin-top: -6rem;
-    border:  0.5rem solid #22d18b;
-    height: 22rem;
+    border: 0.5rem solid #22d18b;
+    height: 23rem;
   }
-  .mainInfo{
+  .mainInfo {
     font-size: 15px;
   }
   .skillButton {
     margin-top: 1.5rem;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .reactSkill {
     margin-right: 0.5rem;
@@ -162,19 +161,18 @@
     background: #22d18b;
     border-radius: 1rem;
   }
-  .weatherimg{
+  .weatherimg {
     margin-top: -46rem;
-    border:  0.5rem solid #22d18b;
+    border: 0.5rem solid #22d18b;
     width: 90%;
     margin-left: -3%;
     height: 22rem;
   }
- 
-  .weatherInfo{
+
+  .weatherInfo {
     margin-top: 15rem;
     width: 70%;
     margin-left: -2%;
     height: 20rem;
   }
-  
 }
