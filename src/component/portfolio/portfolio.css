@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Quicksand&display=swap");
+.project {
+  margin-top: 3rem;
+  margin-left: 10%;
+}
+.weather {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.image-post{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  margin-top: 2rem;
+}
+.weatherInfo {
+  height: 25rem;
+  width: 23rem;
+  background-color: #e6fef5;
+  border-radius: 2rem;
+  padding: 2.5rem;
+  margin-top: 3rem;
+  margin-right: -2rem;
+  font-family: "Quicksand", sans-serif;
+}
+.recently {
+  margin-top: 5rem;
+  margin-left: 31%;
+}
+.weatherimg {
+  height: 33rem;
+  width: 38rem;
+  background-color: white;
+  border-radius: 2rem;
+  border: 0.8rem solid #22d18b;
+}
+.weatherapp-img {
+  width: 100%;
+  height: 100%;
+}
+.infoHeading {
+  color: #22d18b;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.mainInfo {
+  font-size: 1.3rem;
+  color: rgb(48, 48, 48);
+}
+.skillButton {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+}
+.reactSkill {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  background: #22d18b;
+  border-radius: 1rem;
+}
+.projects__icon {
+  cursor: pointer;
+  font-size: 2rem;
+  margin-right: 1rem;
+  margin-top: 1.7rem;
+  color: #22d18b;
+}
+.projects__icon:hover {
+  color: black;
+}
+.imagePost {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.postInfo {
+  height: 28rem;
+  width: 23rem;
+  background-color: #e6fef5;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  margin-top: 3rem;
+
+  font-family: "Quicksand", sans-serif;
+}
+.postImg {
+  height: 33rem;
+  width: 38rem;
+  background-color: white;
+  border-radius: 2rem;
+  border: 0.8rem solid #22d18b;
+  margin-right: -2rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .recently {
+    margin-top: 5rem;
+    margin-left: 25%;
+  }
+  .postInfo{
+    width: 60%;
+    margin-left: 10%;
+    margin-top: -3rem;
+  }
+  .postImg{
+    width: 80%;
+    margin-left: 3%;
+    margin-top: -6rem;
+  }
+  .weatherimg{
+    margin-top: -63rem;
+    
+    width: 80%;
+    margin-left: 3%;
+  }
+ 
+  .weatherInfo{
+    margin-top: 26rem;
+    width: 60%;
+    margin-left: 10%;
+  }
+  .weather{
+    margin-top: 30em;
+  }
+  #all-project{
+    
+    margin-top: -20rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .recently{
+    width: 90%;
+    margin-left: 3%;
+    margin-right: 5%;
+    
+  }
+  .postInfo{
+    width: 80%;
+    margin-left: -3%;
+    margin-top: -3rem;
+    height: 23rem;
+  }
+  .postImg{
+    width: 90%;
+    margin-left: -2%;
+    margin-top: -6rem;
+    border:  0.5rem solid #22d18b;
+    height: 22rem;
+  }
+  .mainInfo{
+    font-size: 15px;
+  }
+  .skillButton {
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+  }
+  .reactSkill {
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    background: #22d18b;
+    border-radius: 1rem;
+  }
+  .weatherimg{
+    margin-top: -46rem;
+    border:  0.5rem solid #22d18b;
+    width: 90%;
+    margin-left: -3%;
+    height: 22rem;
+  }
+ 
+  .weatherInfo{
+    margin-top: 15rem;
+    width: 70%;
+    margin-left: -2%;
+    height: 20rem;
+  }
+  
+}

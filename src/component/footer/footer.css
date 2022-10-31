@@ -1,0 +1,93 @@
+.footer{
+    margin-top: 8rem;
+    text-align: center;
+}
+.form{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 25rem;
+    margin-top: 1rem;
+    border: 0.8rem solid  #22d18b;
+    border-radius: 15px;
+    background-color: #cff6eb
+}
+.userName{
+    margin-top: 2rem;
+    height: 1.3rem; 
+    border: 0;
+    width: 40%;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none
+    
+}
+.email{
+    margin-top: 2rem;
+    height: 1.3rem;
+    border: 0;
+    width: 40%;
+    margin-left: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none
+}
+.textarea{
+    outline: none;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 10px;
+    width: 87%;
+    height: 13rem;
+    padding: 1rem;
+    font-size: 18px;
+}
+.btn{
+    margin-top: 0.5rem;
+    margin-right: -53rem;
+    width: 4rem;
+    border: 0;
+    background-color: #22d18b;
+    color: #fff;
+    height: 2.5rem;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size:18px; 
+}
+.alert{
+    
+    height: 2rem;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+@media only screen and (max-width: 900px){
+    .btn{
+        margin-right: -70%;
+    }
+}
+@media only screen and (max-width: 900px){ 
+    .form{
+        border: 0.4rem solid  #22d18b;
+    }
+    .userName{
+        margin-left: 3%;
+        width: 78%;
+    }
+    .email{
+        margin-left: 3%;
+        width: 78%;
+        margin-top: 15px;
+    }
+    .textarea{
+        
+        margin-top: 1rem;
+        border-radius: 10px;
+        margin-left: 3%;
+        width: 78%;
+        height: 14rem;
+        padding: 1rem;
+        font-size: 18px;
+    }
+}

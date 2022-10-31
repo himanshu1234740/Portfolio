@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Quicksand&display=swap");
+:root {
+  --primry--colour: #22d18b;
+}
+.logo {
+  margin-left: 67%;
+  height: 100%;
+  width: 33%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.flexBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.hello {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
+.devloper {
+  font-size: 2rem;
+}
+#resume {
+  background: linear-gradient(135deg, #2adf97, #27d670);
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 1.5rem;
+  outline: none;
+  padding: 0.8rem;
+}
+.social__icon {
+  color: var(--primry--colour);
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+.social__icon:hover {
+  color: black;
+}
+.detail {
+  margin-top: 6rem;
+  margin-left: 16rem;
+  width: 25rem;
+  background-color: #e6fef5;
+  height: 13rem;
+  border-radius: 20px;
+}
+#img {
+  width: 100%;
+}
+.about-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 18rem;
+  margin-left: 43%;
+}
+.heart__icon {
+  margin-top: 10px;
+  color: var(--primry--colour);
+  margin-left: 1rem;
+}
+#love {
+  margin-left: 1rem;
+}
+.card-body {
+  height: 17rem;
+  width: 25%;
+  margin-left: 6%;
+  background-color: #e6fef5;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.card {
+  margin-top: 2rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.love__icon__container {
+  background: linear-gradient(135deg, #2adf97, #27d670);
+  border-radius: 10rem;
+  width: 6rem;
+  height: 6rem;
+  margin: 1.5rem auto;
+}
+.love__icon {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-left: 31%;
+  margin-top: 1.6rem;
+}
+.text {
+  font-size: 1.1rem;
+  font-weight: normal;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10rem;
+}
+.intro-body {
+  height: 15rem;
+  margin-left: 6rem;
+  width: 45rem;
+  background-color: #e6fef5;
+  border-radius: 15px;
+  padding: 2rem;
+  font-size: 1.3rem;
+}
+.selfImage {
+  height: 15rem;
+  width: 15rem;
+  margin-left: -2rem;
+  margin-top: 2rem;
+}
+.self-image {
+  object-fit: cover;
+  border-radius: 15px;
+  border: 0.7rem solid #22d18b;
+}
+
+@media only screen and (max-width: 900px) {
+  .logo {
+    margin-left: 57%;
+    height: 80%;
+    width: 43%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+  .detail {
+    margin-left: -10rem;
+    margin-top: 27rem;
+    width: 20rem;
+    height: 10rem;
+  }
+  .card {
+    margin-top: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .card-body {
+    height: 20rem;
+    width: 70%;
+    margin-left: 15%;
+    background-color: #e6fef5;
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+  .intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+  }
+  .intro-body {
+    height: 18rem;
+    margin-top: 10rem;
+    width: 80%;
+    margin-left: 6%;
+    background-color: #e6fef5;
+    border-radius: 15px;
+    padding: 2rem;
+    font-size: 1.3rem;
+  }
+  .selfImage {
+    margin-left: 16rem;
+    margin-top: -37rem;
+  }
+}
+/* responsive for mobile */
+@media only screen and (max-width: 500px) {
+  .name {
+    margin-right: 10%;
+  }
+  #resume{
+    width: 8rem;
+    height: 3rem;
+    padding: 5px;
+    
+  }
+  .detail{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10rem;
+   
+  }
+  .about-section{
+    width: 60%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 15rem;
+   
+  }
+  .intro-body{
+    width: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 23rem;
+    
+  }
+  .self-image{
+    width: 13rem;
+    margin-left: -11rem;
+    border: 0.5rem solid #22d18b;
+    margin-top: -4rem;
+        
+  }
+  .card-body{
+    height: 23rem;
+  }
+  
+}

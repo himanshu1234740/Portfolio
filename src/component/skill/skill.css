@@ -1,0 +1,87 @@
+.skill {
+  margin-top: 8rem;
+  height: 28rem;
+  width: 28rem;
+  margin-left: 28%;
+  border-radius: 16rem;
+
+  border: 1.3rem solid #22d18b;
+}
+.skill__icon {
+  cursor: pointer;
+  padding: 0 5px;
+  color: #e6fef5;
+  user-select: none;
+}
+.skill__icon:hover {
+  color: #22d18b;
+}
+.row {
+  font-size: 56px;
+  padding: 10px 0;
+  top: -60%;
+
+  white-space: nowrap;
+  width: 100%;
+  margin-left: 25px;
+}
+#node {
+  margin-left: 10px;
+}
+#github {
+  margin-left: 6rem;
+}
+.firstdiv {
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .skill {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .skill {
+    margin-left: 8%;
+    height: 80%;
+    width: 80%;
+    border-radius: 10%;
+    border: 0.5rem solid #22d18b;
+  }
+  .skill__icon {
+    width: 4rem;
+    padding: 0.1rem;
+    height: 2rem;
+    margin-top: 0rem;
+    margin-left: -1rem;
+  }
+  .row {
+    font-size: 56px;
+    padding: 10px 0;
+    top: -1%;
+    white-space: nowrap;
+    width: 100%;
+    margin-left: 5px;
+    
+  }
+  .icon_item {
+   
+    height: 100%;
+    width: 100%;
+  }
+  #node {
+    margin-left: 0px;
+  }
+  #github {
+    margin-left: 5rem;
+  }
+  .firstdiv {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .html_icon {
+    margin-top: 1rem;
+  }
+}
