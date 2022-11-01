@@ -3,6 +3,7 @@ import logo from "../../image/triangle.png";
 import "./style.css";
 import detail from "../../image/detail.png";
 import self from "../../image/self.jpeg";
+import myResume from "../../myResume/resume.pdf";
 export default function Index() {
   const ref = useRef();
   const handleLink = () => {
@@ -16,7 +17,7 @@ export default function Index() {
             <p className="hello">Hello I'm</p>
             <h1>Himanshu</h1>
             <p className="devloper">Full Stack Developer</p>
-            <button id="resume">Download Resume</button>
+            <a href={myResume} download><button id="resume">Download Resume</button></a>
             <div> 
               <svg
                 stroke="currentColor"
@@ -133,8 +134,7 @@ export default function Index() {
       <div className="intro">
         <div className="intro-body">
           <p>
-            hello skjfhksd skjdfhk skdjf sdkjf vnksdjfhieu sehiwuehrf kjefwiuh
-            kjhiweuh neowh wehoweh wehodfghty fgh
+            Hello there! I'm Himanshu gautamgod and I learnt full stack devlopment from udemy online. I started my web development journey about 1 year ago when I'm in 12th standard. I started with the simplest html , css , js and for backend php but after sometimes I decided to using nodejs for backend. Currently I am working in MERN stack which is a long way from php. Working as as a programmer/developer sometimes give you highest furstration but when you solve the issue it gives you maximum satisfaction. Overall it's good
           </p>
         </div>
         <div className="selfImage">

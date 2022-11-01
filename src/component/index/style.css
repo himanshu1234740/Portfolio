@@ -214,15 +214,15 @@
     width: 80%;
     margin-left: 2%;
     margin-right: 2%;
-    height: 23rem;
-    
+    height: 30rem;
+    font-size: 1.2rem;
   }
   .self-image{
     width: 13rem;
     margin-left: -11rem;
     border: 0.5rem solid #22d18b;
-    margin-top: -4rem;
-        
+    margin-top: -11.5rem;
+    
   }
   .card-body{
     height: 23rem;

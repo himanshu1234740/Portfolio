@@ -29,7 +29,11 @@ export default function Navbar() {
     <>
       <div className="navbar">
         <nav>
+          
           <ul className="listItems" style={{height: nav.height}} >
+          <a className="list royel"  href='#home-section'>
+          <h1>Js</h1><h1 className="roy" >Roy</h1><h1>el</h1>
+            </a>
             {window.innerWidth<500?<li className="list contact" style={{display: nav.display}}>
               <a href="#contect-section" className="navbarItem">
                 Contact
