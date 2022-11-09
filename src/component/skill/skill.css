@@ -2,11 +2,15 @@
   margin-top: 8rem;
   height: 28rem;
   width: 28rem;
-  margin-left: 28%;
+  
   border-radius: 16rem;
 
-  border: 1.3rem solid #22d18b;
+  border: 1.3rem solid #22d18b; 
+ 
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .skill__icon {
   cursor: pointer;
   padding: 0 5px;
@@ -49,7 +53,7 @@
 }
 @media only screen and (max-width: 500px) {
   .skill {
-    margin-left: 0%;
+    margin-left: 0%; 
     height: 24rem;
     width: 95%;
     border-radius: 50%;

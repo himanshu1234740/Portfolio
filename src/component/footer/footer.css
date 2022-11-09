@@ -1,12 +1,13 @@
 .footer{
     margin-top: 8rem;
     text-align: center;
+    
 }
 .form{
     margin-left: 10%;
     margin-right: 10%;
-    width: 80%;
-    height: 25rem;
+    margin-bottom: 3rem;
+    height: fit-content;
     margin-top: 1rem;
     border: 0.8rem solid  #22d18b;
     border-radius: 15px;
@@ -45,9 +46,9 @@
     font-size: 18px;
 }
 .btn{
-    margin-top: 0.5rem;
-    margin-right: -53rem;
-    width: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 10%;
     border: 0;
     background-color: #22d18b;
     color: #fff;
@@ -62,12 +63,17 @@
     font-size: 18px;
     margin-top: 1rem;
 }
+
 @media only screen and (max-width: 900px){
     .btn{
         margin-right: -70%;
     }
 }
 @media only screen and (max-width: 900px){ 
+    .btn{
+        width: 5rem;
+        margin-left: -2.5rem;
+    }
     .form{
         border: 0.4rem solid  #22d18b;
     }

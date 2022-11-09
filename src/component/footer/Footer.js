@@ -40,7 +40,7 @@ export default function Footer() {
 
   return (
     <div className="footer" id="contect-section">
-      <h1>GET IN TOUCH</h1>
+      <h1 className="touch" >GET IN TOUCH</h1>
       {alert==="Send data successfully"?<p className="alert" style={{color: 'green'}} >{alert}</p>:<p className="alert" style={{color: 'red'}} >{alert}</p>}
       <div className="form">
         <form ref={form} onSubmit={sendEmail}>
